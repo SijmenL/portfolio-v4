@@ -464,11 +464,9 @@ main img {
     max-width: 300px;
     border-radius: 7px;
     transition: all 0.2s ease-in;
-    filter: contrast(1);
 }
 
 main img:hover {
-    filter: contrast(1);
     transition: all 0.2s ease-out;
     overflow: hidden;
     cursor: cell;
@@ -558,11 +556,6 @@ footer img {
 
     .text-content {
         scroll-margin-top: 75px;
-    }
-
-    /** De hover effecten kunnen niet op mobile, dus ze staan uit na 600px. */
-    main img {
-        filter: contrast(0.8);
     }
 
     #footer img {
